@@ -1,0 +1,128 @@
+/* eksternal CSS */
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  background-color: #dcdbde
+;
+}
+
+.container {
+  text-align: center;
+}
+      
+.box {
+  display: inline-block;
+}
+
+.container> .box> .hai {
+  border: 1px solid #000000;
+  width-max: 100px;
+  height-max: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+:root {
+  --miamor: black;  
+}      
+
+      
+.i {
+  background: #95b5d4
+;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  font-size: 28px;
+  color: v(--miamor);
+}
+
+.love {
+  font-family: 'Yaldevi', sans-serif;
+  table-size: 50px;
+}
+
+.you {
+  background: #95b5d4
+;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  font-size: 28px;
+  color: var(--miamor);
+}
+
+.so {
+  background: #95b5d4
+;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  font-size: 28px;
+  color: var(--miamor);
+}
+
+.much {
+  background: #95b5d4
+;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  font-size: 28px;
+  color: var(--miamor);
+}
+
+.do {
+  line-height: 30px;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+.u {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.wanna {
+  line-height: 30px;
+  font-family: 'Yaldevi', sans-serif;
+}
+      
+.be {
+  line-height: 30px;
+  font-family: 'Yaldevi', sans-serif;
+}
+      
+.mine {
+  line-height: 30px;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+.boy {
+  line-height: 30px;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+.container> .box> .sorry {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 50px;
+  color: v(--miamor);
+;
+}
+
+.just {
+  weight: 50;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+.kidding> .hehe {
+  background: #95b5d4
+;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 3px;
+  font-size: 28px;
+  color: var(--miamor);
+}
