@@ -69,7 +69,7 @@ nav ul li a:hover {
     width: 100%;
     height: 80vh;
     margin-top: -1.5%;
-    background-color: white;
+    background: white;
     border-radius: 5px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,7 +82,7 @@ nav ul li a:hover {
     font-family: 'Poppins';
     padding-top: 10%;
     line-height: 0px;
-    text-shadow: 0px 15px 20px black;
+    text-shadow: 0px 30px 30px black;
 }
 .none p:nth-child(1) {
     font-size: 20px;
@@ -98,12 +98,12 @@ nav ul li a:hover {
     height: 330px;
     background-color: black;
     border-radius: 20px;
+    box-shadow: 2px 2px 12px grey;
     display: flex;
     margin: -5% auto 20px auto;
     position: relative;
     justify-content: space-evenly;
     align-items: center;
-    outline-color: #f12020;
 }
 .about-container img{
     height: 250px;
@@ -137,31 +137,16 @@ nav ul li a:hover {
     font-size: 20px;
     padding-left: 50px;
 }
-.education {
-    height: 600px;
-    background-color: white;
-    padding: 2% 10% 0px 10%;
-    margin-top: -3%;
+.hobby {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 3% 5% 3%;
 }
-.education-text p:nth-child(1) {
-    font-family: 'Poppins', cursive;
-    font-weight: bold;
-    color: black;
-    font-size: 35px;
-    line-height: 0px;
+.hobby h1 {
+    font-family: 'Montserrat';
+    padding-left: 2%;
 }
-.education-text p:nth-child(2) {
-    font-family: 'Poppins', cursive;
-    font-weight: bold;
-    color: black;
-    font-size: 20px;
-    line-height: -2px;
-}
-.education-text {
-    width: 500px;
-    margin: 50px 0px;
-}
-.box-1,.box-2,.box-3 {
+.box-001,.box-002,.box-003 {
     width: 300px;
     height: 320px;
     background-repeat: no-repeat;
@@ -171,24 +156,20 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 3%;
 }
-.box-container {
-    display: flex;
-    justify-content: space-between;
-}
-.box-1 {
+.box-001 {
     background-color: #f12020;
 }
-.box-2 {
+.box-002 {
+    background-color: #f12020;
+    margin-top: 15%;
+}
+.box-003 {
     background-color: #f12020;
 }
-.box-3 {
-    background-color: #f12020;
-}
-.box-1 span,
-.box-2 span,
-.box-3 span{
+.box-001 span,
+.box-002 span,
+.box-003 span{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -199,130 +180,23 @@ nav ul li a:hover {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold;
 }
-.box-1 p:nth-child(2),
-.box-2 p:nth-child(2),
-.box-3 p:nth-child(2) {
+.box-001 p:nth-child(2),
+.box-002 p:nth-child(2),
+.box-003 p:nth-child(2) {
     color: #e4e2e9;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 23px;
     line-height: 0px;
     font-weight: bold;
 }
-.box-1 p:nth-child(3),
-.box-2 p:nth-child(3),
-.box-3 p:nth-child(3) {
+.box-001 p:nth-child(3),
+.box-002 p:nth-child(3),
+.box-003 p:nth-child(3) {
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
     width: 230px;
     margin: 0px 0px 2px 0px;
     color: white;
-    font-weight: bold;
-}
-.inspiration {
-    height: 600px;
-    background-color: black;
-    padding: 2% 10% 0px 10%;
-}
-.inspiration-text p:nth-child(1) {
-    font-family: 'Poppins', cursive;
-    font-weight: bold;
-    color: white;
-    font-size: 35px;
-    line-height: 0px;
-}
-.inspiration-text p:nth-child(2) {
-    font-family: 'Poppins', cursive;
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
-    line-height: -2px;
-}
-.inspiration-text {
-    width: 500px;
-}
-.box-01,.box-02,.box-03 {
-    width: 300px;
-    height: 320px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0px 15px 20px black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 3%;
-}
-.box-saya {
-    display: flex;
-    justify-content: space-between;
-}
-.box-01 {
-    background-color: #f12020;
-}
-.box-02 {
-    background-color: #f12020;
-}
-.box-03 {
-    background-color: #f12020;
-}
-.box-01 span,
-.box-02 span,
-.box-03 span{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #e4e2e9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
-}
-.box-01 p:nth-child(2),
-.box-02 p:nth-child(2),
-.box-03 p:nth-child(2) {
-    color: #e4e2e9;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 23px;
-    line-height: 0px;
-    font-weight: bold;
-}
-.box-01 p:nth-child(3),
-.box-02 p:nth-child(3),
-.box-03 p:nth-child(3) {
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: center;
-    width: 230px;
-    margin: 0px 0px 2px 0px;
-    color: white;
-    font-weight: bold;
-}
-.contact-me {
-    width: 100%;
-    height: 280px;
-    background-color: #f12020;
-    box-shadow: 2px 2px 12px grey;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.contact-me p{
-    color: #e4e2e9;
-    font-size: 30px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: bold;
-    border-bottom: 2px solid white;
-}
-.contact-me button {
-    width: 200px;
-    height: 40px;
-    background-color: #e4e2e9;
-    outline: none;
-    border: none;
-    font-size: 14px;
     font-weight: bold;
 }
 footer {
@@ -390,80 +264,4 @@ footer p{
 .a-social-b i{
     color: slategray;
     font-size: 20px;
-}
-@media(max-width:1000px) {
-    *{
-        box-sizing: border-box;
-    }
-    .model{
-        height: 460px;
-        left: 150%;
-        transform: translateX(-90%);
-    }
-    .text-container {
-        top: 46%;
-    }
-    .text-container button {
-        margin: 5px;
-    }
-    .about-container {
-        width: 90%;
-        border-radius: 10px;
-    }
-    .about-container img {
-        height: 200px;
-    }
-    .about-text {
-        width: 400px;
-    }
-    .about-text p:nth-child(1) {
-        font-size: 20px;
-    }
-    .about-text p:nth-child(2) {
-        font-size: 10px;
-    }
-    .about-text p:nth-child(3),
-    .about-text p:nth-child(4) {
-        font-size: 14px;
-    }
-    .education {
-        padding: 2% 5% 0px 5%;
-    }
-    .box-container{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .education {
-        height: auto;
-    }
-    .box-1,.box-2,.box-3 {
-        flex-grow: 1;
-        margin: 10px;
-    }
-    .inspiration {
-        padding: 2% 5% 0px 5%;
-    }
-    .box-saya{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .inspiration {
-        height: auto;
-    }
-    .box-01,.box-02,.box-03 {
-        flex-grow: 1;
-        margin: 10px;
-    }
-    .contact-me{
-        height: 200px;
-    }
-    .contact-me p{
-        font-size: 26px;
-    }
-    .contact-me button {
-        font-size: 14px;
-        height: 35px;
-        width: 160px;
-    }
-
 }
